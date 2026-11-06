@@ -225,7 +225,9 @@ body:not([data-view="about"]):not([data-view="home"]) footer { display: none; }
 main .text.tab-text { margin-left: 0; margin-right: auto; }
 .home-about { padding-top: 128px; }
 /* home text: one block centered on the page, lines still left-aligned for reading */
-main .text.tab-text.home-about { margin-left: auto; margin-right: auto; text-align: justify; hyphens: auto; }
+main .text.tab-text.home-about { margin-left: auto; margin-right: auto; text-align: justify; text-justify: inter-word; hyphens: manual; }
+/* keep hyphenated words like self-love whole at line ends */
+.home-about .nb { white-space: nowrap; }
 /* About photo row: trim the top ~22% of each photo so the band is shorter (each keeps its own width share, so heights still match) */
 .diptych.cv-photos img:nth-child(1) { aspect-ratio: 0.7686 / 0.78; }
 .diptych.cv-photos img:nth-child(2) { aspect-ratio: 0.8379 / 0.78; }
@@ -291,8 +293,8 @@ footer {
     </div>
     <div class="wrap">
       <div class="text tab-text home-about">
-        <p>These days, I think about self-love as a relational attitude and about its ethical role in agency, emotional autonomy, friendship, and solidarity. I’m also generally interested in how accounts of freedom and recognition have evolved together in the Western tradition, and in the forward-looking resources of that history. Although the Kantian framework is my home turf for investigating moral matters, my questions about self-love draw from diverse intellectual sensibilities, from historical mainstays like Aristotle, Rousseau, and Hegel, to the modern voices of Beauvoir, Murdoch, Arendt, and contemporary insights from Rawls, to Audre Lorde, to Henri Nouwen. I have evolving interests at the intersection of aesthetics and ethics, and in surprising affinities between Kant and Mengzi’s accounts of moral sensibility.</p>
-        <p>My background is in moral and political theory and their history, moral emotions, and practical agency. I’ve spent a lot of time thinking about Kant’s theory of freedom and autonomy, the relational structure of practical self-knowledge, and the social conditions of self-regarding attitudes like self-respect and self-love.</p>
+        <p>These days, I think about <span class="nb">self-love</span> as a relational attitude and about its ethical role in agency, emotional autonomy, friendship, and solidarity. I’m also generally interested in how accounts of freedom and recognition have evolved together in the Western tradition, and in the <span class="nb">forward-looking</span> resources of that history. Although the Kantian framework is my home turf for investigating moral matters, my questions about <span class="nb">self-love</span> draw from diverse intellectual sensibilities, from historical mainstays like Aristotle, Rousseau, and Hegel, to the modern voices of Beauvoir, Murdoch, Arendt, and contemporary insights from Rawls, to Audre Lorde, to Henri Nouwen. I have evolving interests at the intersection of aesthetics and ethics, and in surprising affinities between Kant and Mengzi’s accounts of moral sensibility.</p>
+        <p>My background is in moral and political theory and their history, moral emotions, and practical agency. I’ve spent a lot of time thinking about Kant’s theory of freedom and autonomy, the relational structure of practical <span class="nb">self-knowledge</span>, and the social conditions of <span class="nb">self-regarding</span> attitudes like <span class="nb">self-respect</span> and <span class="nb">self-love</span>.</p>
         <p>I’m currently a philosophy postdoctoral faculty fellow at Northwestern University’s <a href="https://bradyprogram.northwestern.edu/about/mission.html" target="_blank" rel="noopener">Brady Program for Ethics &amp; Civic Life</a>. I received my PhD from the University of California, Riverside, where I also taught classes in philosophy of feminism, social and political philosophy, and the early modern tradition.</p>
       </div>
     </div>
