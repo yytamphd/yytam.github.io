@@ -22,6 +22,8 @@ img { max-width: 100%; }
   --ink: #2b1f14;        /* dark brown ink */
   --ink-soft: #5b4632;
   --accent: #f5472a;      /* bright tomato: menu, links */
+  --blue: #1d5cff;        /* bright blue letter accents */
+  --green: #008760;       /* blue-leaning LEGO green letter accents */
   --accent-deep: #c9381b; /* deeper tomato: small labels */     /* faded paperback orange-red */
   --rule: #2b1f14;
   --font-title: "Bodoni Moda", "Bodoni 72", Didot, Georgia, serif;
@@ -78,6 +80,9 @@ nav::before {
   gap: 0 var(--navgap);
 }
 .dot { color: var(--accent); }
+.c-blue { color: var(--blue); }
+.c-green { color: var(--green); }
+.amp { color: var(--blue); font-size: 0.72em; }
 /* Home banner: text set into the photo, upper left and lower right, on the dark wall */
 .banner { position: relative; margin-bottom: 0; }
 .banner img { display: block; width: 100%; height: auto; }
@@ -301,7 +306,7 @@ footer {
   </section>
 
   <section data-panel="teaching" hidden>
-    <div class="wrap"><h2 class="page-title">Teach<span class="i" data-ch="i">i</span>ng</h2><div class="text">
+    <div class="wrap"><h2 class="page-title">Te<span class="c-green">a</span>ch<span class="i" data-ch="i">i</span>n<span class="c-blue">g</span></h2><div class="text">
       <p class="statement">For me, teaching is about fostering intellectual autonomy through <em>serious</em> play. Philosophy demands a willingness to take intellectual risks, for it asks us to tinker with the very foundations of our reality. But this requires a secure academic environment in which we venture into uncertain terrain together. For meaningful engagement in this joint enterprise, my courses strive to provide students with creative ways to collectively practice philosophical skills in reading, writing, and critical thinking, and to promote inclusive, student-centered learning.</p>
 
       <div class="group">
@@ -338,7 +343,7 @@ footer {
   </section>
 
   <section data-panel="research" hidden>
-    <div class="wrap"><h2 class="page-title">Research <span class="dot">&amp;</span> Pro<span class="i" data-ch="j">j</span>ects</h2><div class="text">
+    <div class="wrap"><h2 class="page-title">Rese<span class="c-green">a</span>rch <span class="amp">&amp;</span> Pro<span class="i" data-ch="j">j</span>ects</h2><div class="text">
 
 
       <div class="group">
@@ -376,7 +381,7 @@ footer {
       <div class="group">
         <h3>Book Project</h3>
         <p class="item-title"><em>Self-Love &amp; Solidarity</em></p>
-        <p class="desc">What started as a concern that care be taken as seriously as autonomy in our moral regard for others has led to a complex conception of self-love as a free power of association, a capacity to share and give of oneself in relations of practical love. (If anyone has a better idea for what to call this, I am desperate to hear from you!) It is at once a universal grammar for sharing subjectivity, but one that understands itself as aiming at contact with <em>distinct</em> subjectivities. Its normative resources come from loving a subject under the idea of freedom. This project is an attempt to address certain dualisms that my dissertation began to deconstruct from a Kantian framework—between the universal and particular, duty and care, the personal and the distal, respect and love, and—my most enduring bugbear—reason and sensibility.</p>
+        <p class="desc">This monograph aims to articulate an ethical conception of self-love that accounts for its role in forging human connection and community. It develops a self-conception of the kind of personal worth, grounded in one’s dignity, that underwrites the capacity to share and give of oneself in reciprocal relations of recognition and practical love. It is in such relations that we regard ourselves as co-agents in generating grammars of value through which we sustain a concern for one another’s self-love as not just a personal, but a social good. In particular, we co-author descriptions under which we value persons (including ourselves) as distinct subjects worth knowing and as worthy partners in shaping a shared form of life. This account’s normative resources come from the possibility of valuing, and being valued as, a distinct subject under the idea of freedom.</p>
         <p class="note">Monograph proposal. Nominated for the Kaplan Institute for the Humanities Dissertation to Book Workshop, Northwestern University, March 2025.</p>
       </div>
 
